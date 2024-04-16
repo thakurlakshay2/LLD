@@ -13,6 +13,8 @@ public class Store {
         NotificationAlertObserver obs1=new EmailAlertObserverImpl("xyz@gmail.com",iphoneStockObs);
         NotificationAlertObserver obs2=new EmailAlertObserverImpl("xyz2@gmail.com",iphoneStockObs);
         NotificationAlertObserver obs3=new MobileAlertObserverImpl("xyz3@gmail.com",iphoneStockObs);
+        NotificationAlertObserver obs4=new MobileAlertObserverImpl("xyz3@gmail.com",iphoneStockObs);
+        NotificationAlertObserver obs5=new MobileAlertObserverImpl("xyz3@gmail.com",iphoneStockObs);
 
         iphoneStockObs.add(obs1);
         iphoneStockObs.add(obs2);
