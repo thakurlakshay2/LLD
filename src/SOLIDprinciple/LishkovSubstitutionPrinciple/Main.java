@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-//LIShKOV principle suggests- that a child/subclass should enhance the capabilites of parent class not hamper them.
-//in bottom example bycicle does exacly that.
+// L - Liskov principle suggests - that a child/subclass should enhance the capabilities of parent class not hamper them.
+//in bottom example bicycle does exactly that.
 //
 public class Main {
     public static void main(String[] args) {
